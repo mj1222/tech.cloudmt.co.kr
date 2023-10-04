@@ -1,5 +1,5 @@
 ---
-feature_image: images/image-002.png
+feature_image: images/cover.png
 authors:
 - jeonghwan kim
 date: "2023-08-31T00:00:00Z"
@@ -10,7 +10,7 @@ tags:
 - Docker
 - Container Image
 - dockerfile
-title: 컨테이너 작성시 환경변수 활용하기 #1/2
+title: 컨테이너 작성시 환경변수 활용하기 1/2
 ---
 
 # 문서 작성의 이유
@@ -159,4 +159,6 @@ I am container. env: test
 
 	⁃	컨테이너 기본 실행환경은 반드시 어떤 환경으로 실행되어야 하는지?
 	⁃	컨테이너 실행 환경은 전달 방법은 어떤 것들이 있는지? (남은 것들)
+
+ 
 
