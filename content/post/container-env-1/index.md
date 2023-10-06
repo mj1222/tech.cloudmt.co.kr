@@ -5,7 +5,6 @@ authors:
 date: "2023-08-31T00:00:00Z"
 categories:
 - hands on
-
 tags:
 - Docker
 - Container Image
@@ -57,7 +56,7 @@ I am container. env: test
 I am container. env: test
 ```
 
-## 환경별 컨테이너의 필요성?
+## 환경별 컨테이너의 필요성
 
 위의 출력 화면의 변경을 위해 (= 실제 어플리케이션의 동작 차이점) `개발, 테스트, 운용` 환경 모두 다른 컨테이너를 만들었다고 가정해보자. 환경별 컨테이너를 만들기 위해 소스코드 변경이 3번 필요하고 컨테이너 작성도 3번이 필요했을 것이다.
 
